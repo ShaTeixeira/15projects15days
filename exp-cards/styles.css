@@ -8,19 +8,19 @@
 
 :root{
   --background: #1cd364;
-  --support: #2d43ac;
-  --second: #eed698
+  --second: #eed698;
   --white: #ffffff;
 } 
 
 body {
-  font-family: 'Muli', sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
+
+  background: var(--background);
 }
 
 .container {
