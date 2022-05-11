@@ -8,7 +8,7 @@
 
 :root{
   --background: #1cd364;
-  --suport: #2d43ac;
+  --support: #2d43ac;
   --second: #eed698
   --white: #ffffff;
 } 
@@ -38,7 +38,7 @@ body {
   flex: 0.5;
   margin: 10px;
   position: relative;
-  -webkit-transition: all 700ms ease-in;
+  transition: all 700ms ease-in;
 }
 
 .image h3 {
