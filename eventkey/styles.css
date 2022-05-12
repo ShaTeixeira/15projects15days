@@ -1,0 +1,36 @@
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #dff;
+  font-family: 'Tahoma', monospace;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  height: 100vh;
+}
+
+.key {
+  border: 1px solid #bcc;
+  background: #efe;
+  box-shadow: 2px 2px 4px #3a9;
+  display: inline-flex;
+  align-items: center;
+  font-size: 22px;
+  padding: 20px;
+  flex-direction: column;
+  margin: 10px;
+  min-width: 150px;
+}
+
+@media(max-width:768px){
+ .key{
+   margin: 10px 0px;
+  }
+}
