@@ -1,40 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
 
 * {
-  margin:0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root{
-    --background: #1cd364;
-    --second: #eed698;
-    --white: #ffffff;
-    --black: #000000;
-    --buttons: #7cdf9d;
+:root {
+  --background: #1cd364;
+  --second: #eed698;
+  --white: #ffffff;
+  --black: #000000;
+  --buttons: #7cdf9d;
 }
 
 body {
   background: var(--background);
-  font-family: 'Poppins', sans-serif;
-  display: flex;   
-  flex-wrap: wrap;   
-  align-items: center;   
-  justify-content: center;   
-  text-align: center;   
-  height: 100vh;   
-  overflow: hidden;    
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.btn { 
-    background: var(--buttons); 
-    border-radius: 5px; 
-    border: none; color: var(--white); 
-    margin: 1rem; 
-    padding: 1.5rem 3rem; 
-    font-size: 1.2rem; 
-    font-family: inherit; 
-    cursor: pointer; 
+.btn {
+  background: var(--buttons);
+  border-radius: 5px;
+  border: none;
+  color: var(--white);
+  margin: 1rem;
+  padding: 1.5rem 3rem;
+  font-size: 1.2rem;
+  font-family: inherit;
+  cursor: pointer;
 }
-
-
+.btn:hover { opacity: 0.9; }
+.btn:focus { outline: none; }
