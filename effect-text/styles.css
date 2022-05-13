@@ -14,13 +14,33 @@
   --buttons: #7cdf9d;
 }
 body {
-  background: var(--white);
+  background: var(--background);
+  color: var(--white);
   font-family: "Poppins", sans-serif;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  overflow-x: hidden;
+  
+  height: 100vh;
+  overflow: hidden;
 }
+
+.speed {
+  position: absolute;
+  bottom: 20px;
+  background: var(--black);
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+input {
+  width: 50px;
+  padding: 5px;
+  font-size: 18px;
+  background-color: var(--buttons);
+  border: none;
+  text-align: center;
+}
+input:focus { outline: none; }
