@@ -4,8 +4,13 @@
   box-sizing: border-box;
 }
 
+:root{
+  --background: #1cd364;
+  --second: #eed698;
+}
+
 body {
-  background: #dff;
+  background: var(--background);
   font-family: 'Tahoma', monospace;
 
   display: flex;
@@ -19,7 +24,7 @@ body {
 .key {
   border: 1px solid #bcc;
   background: #efe;
-  box-shadow: 2px 2px 4px #3a9;
+  box-shadow: 2px 2px 4px #8debb28a;
   display: inline-flex;
   align-items: center;
   font-size: 22px;

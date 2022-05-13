@@ -7,7 +7,8 @@
 }
 
 :root{
-    --background: #49bd6fcb;
+    --background: #1cd364;
+    --second: #eed698;
     --white: #ffffff;
     --black: #000000;
     --buttons: #7cdf9d;
@@ -16,4 +17,24 @@
 body {
   background: var(--background);
   font-family: 'Poppins', sans-serif;
+  display: flex;   
+  flex-wrap: wrap;   
+  align-items: center;   
+  justify-content: center;   
+  text-align: center;   
+  height: 100vh;   
+  overflow: hidden;    
 }
+
+.btn { 
+    background: var(--buttons); 
+    border-radius: 5px; 
+    border: none; color: var(--white); 
+    margin: 1rem; 
+    padding: 1.5rem 3rem; 
+    font-size: 1.2rem; 
+    font-family: inherit; 
+    cursor: pointer; 
+}
+
+
