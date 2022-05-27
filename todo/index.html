@@ -12,16 +12,13 @@
 </head>
 
 <body>
-        <input type="text" id="search" placeholder="Procure um usuario do github">
-    <form class="user-form" id="form">
+    <h1>to-do</h1>
+    <form id="form">
+        <input type="text" class="input" id="input" placeholder="Escreva sua tarefa" autocomplete="off">
+
+        <ul class="todos" id="todos"></ul>
     </form>
-
-    <main id="main"></main>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"
-        integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ=="
-        crossorigin="anonymous">
-        </script>
+    <small>Clique à esquerda para alternar (concluído).<br> Clique com o botão direito de excluir to-do</small>
     <script src="main.js"></script>
 </body>
 
